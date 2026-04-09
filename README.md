@@ -16,8 +16,8 @@ O **Biblio** foi reconstruído do zero para transformar uma ideia simples em uma
 O objetivo principal deste repositório é mostrar o contraste entre o passado e o presente:
 - **Antes**: Design estático básico.
 - **Agora**: Uma landing page moderna com grid layouts complexos, tipografia refinada e micro-interações.
-- **Propósito**: Provar que com dedicação e prática, o design pode ser elevado a padrões de mercado de alta conversão.
-
+### 🤖 O Papel da IA no Desenvolvimento
+Neste projeto, a Inteligência Artificial foi utilizada como uma ferramenta de co-criação e aceleração. Acredito que, no cenário atual, ignorar o potencial da IA é um retrocesso; utilizá-la estrategicamente é essencial para não ficar para trás. Contudo, o foco central deste repositório permanece no **aprendizado contínuo** e na compreensão profunda de cada linha de código e decisão de design.
 
 ### ✨ Características
 - 🎨 **Design Moderno**: Paleta de cores sofisticada (Peach, Coral, Teal).
