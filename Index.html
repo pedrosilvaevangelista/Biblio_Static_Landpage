@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblio</title>
+
+    <!-- Google Fonts: Inter (Sans) & Playfair Display (Serif) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!-- Phosphor Icons (Ícones modernos) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/logo_no_background.png">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="assets/img/logo_name.png" alt="Biblio Logo" class="logo-img">
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#how-it-works">Como Funciona</a></li>
+                    <li><a href="#catalog">Catálogo</a></li>
+                    <li><a href="#pricing">Planos</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <a href="#login" class="btn-ghost">Entrar</a>
+                <a href="#pricing" class="btn-solid">Começar Grátis</a>
+            </div>
+            <button class="mobile-menu-btn"><i class="ph ph-list"></i></button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero reveal" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="badge">Sua nova biblioteca virtual - Leia e Ame!</div>
+                <h1>Leia sem limites.<br>Viva a <em>história</em>.</h1>
+                <p>Tenha acesso ilimitado a centenas de milhares de clássicos, best-sellers e obras exclusivas. A melhor
+                    experiência de leitura projetada para a era digital.</p>
+                <div class="cta-group">
+                    <a href="#pricing" class="btn-cta">Assine a Biblio <i class="ph ph-arrow-right"></i></a>
+                    <span class="subtext">Teste 14 dias de graça. Cancele quando quiser.</span>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <!-- Decorative Shapes -->
+                <div class="floating-shape shape-1"></div>
+                <div class="floating-shape shape-2"></div>
+                <div class="floating-shape shape-3"></div>
+                
+                <!-- Imagem Abstrata Moderna e Premium -->
+                <img src="/assets/img/imghome.png" alt="Garota lendo" class="hero-img">
+                <div class="image-overlay-box">
+                    <div class="stat">
+                        <span class="number">2.5M+</span>
+                        <span class="label">Leitores Ativos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted By / Logos Section -->
+    <section class="trusted-by reveal">
+        <div class="trusted-container">
+            <p>RECONHECIDA E MENCIONADA POR</p>
+            <div class="logos-grid">
+                <div class="logo-item"><i class="ph ph-nytimes-logo"></i> Forbes</div>
+                <div class="logo-item">TechCrunch</div>
+                <div class="logo-item">The New York Times</div>
+                <div class="logo-item">Wired</div>
+                <div class="logo-item">FastCompany</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works reveal" id="how-it-works">
+        <div class="section-header center">
+            <h2>Como a Biblio funciona</h2>
+            <p>Seu próximo livro favorito está a apenas três passos de distância.</p>
+        </div>
+        <div class="steps-container">
+            <div class="step-box">
+                <div class="step-num">01</div>
+                <h3>Crie sua conta</h3>
+                <p>Inscreva-se em menos de 2 minutos e ganhe acesso instantâneo ao período de teste gratuito de 14 dias.
+                </p>
+            </div>
+            <div class="step-box">
+                <div class="step-num">02</div>
+                <h3>Entre Pelo Navegador</h3>
+                <p>Escolha o seu dispositivo. A Biblio otimiza automaticamente o layout, seja no celular, tablet ou
+                    desktop.</p>
+            </div>
+            <div class="step-box">
+                <div class="step-num">03</div>
+                <h3>Explore e leia sem fim</h3>
+                <p>Viaje pelo nosso catálogo infinito. Suas métricas, marcadores e progresso são salvos na nuvem.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features reveal" id="features">
+        <div class="section-header center">
+            <h2>Por que escolher a Biblio?</h2>
+            <p>Uma experiência nativamente desenhada para o conforto dos seus olhos.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="icon-wrapper"><i class="ph ph-wifi-slash"></i></div>
+                <h3>Leitura Offline</h3>
+                <p>Baixe seus livros favoritos e leia no metrô ou no avião, sem depender de internet.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-wrapper"><i class="ph ph-cloud-arrow-up"></i></div>
+                <h3>Sincronização Nuvem</h3>
+                <p>Comece no tablet, continue no celular. Suas marcações e páginas fluem com você perfeitamente.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-wrapper"><i class="ph ph-headphones"></i></div>
+                <h3>Audiobooks</h3>
+                <p>Muitas obras têm sua versão em áudio narrada por profissionais, para você "ler" trânsito.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Editorial Catalog (Swiper) -->
+    <section class="catalog reveal" id="catalog">
+        <div class="catalog-container">
+            <div class="section-header center">
+                <h2>Obras em Destaque</h2>
+                <p>Nossa curadoria elegeu os títulos essenciais desta semana.</p>
+            </div>
+
+            <div class="swiper catalog-swiper">
+                <div class="swiper-wrapper">
+                    <!-- Book Cards foram mantidos com os links originais do usuário garantindo sucesso -->
+                    <div class="swiper-slide book-item">
+                        <div class="book-cover">
+                            <img src="assets/img/Livros/Livro1.png" alt="Capa">
+                        </div>
+                        <div class="book-info">
+                            <h4>Brincadeira De Criança</h4>
+                            <span class="author">Carlos R. Zafón</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide book-item">
+                        <div class="book-cover">
+                            <img src="assets/img/Livros/Livro2.png" alt="Capa">
+                        </div>
+                        <div class="book-info">
+                            <h4>E Nunca Mais Voltou</h4>
+                            <span class="author">Elena Vargas</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide book-item">
+                        <div class="book-cover">
+                            <img src="assets/img/Livros/Livro3.png" alt="Capa">
+                        </div>
+                        <div class="book-info">
+                            <h4>A Missão!</h4>
+                            <span class="author">Robert C. Martin</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide book-item">
+                        <div class="book-cover">
+                            <img src="assets/img/Livros/Livro4.png" alt="Capa">
+                        </div>
+                        <div class="book-info">
+                            <h4>Uma Ruiva Muito Louca</h4>
+                            <span class="author">Ana F. Carvalho</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide book-item">
+                        <div class="book-cover">
+                            <img src="assets/img/Livros/Livro5.png" alt="Capa">
+                        </div>
+                        <div class="book-info">
+                            <h4>A Mente Está Cansada</h4>
+                            <span class="author">Clara T. Silva</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide book-item">
+                        <div class="book-cover">
+                            <img src="assets/img/Livros/Livro6.png" alt="Capa">
+                        </div>
+                        <div class="book-info">
+                            <h4>Carlos Lo Talarico Mal Intencionado</h4>
+                            <span class="author">Clara T. Silva</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide book-item">
+                        <div class="book-cover">
+                            <img src="assets/img/Livros/Livro7.png" alt="Capa">
+                        </div>
+                        <div class="book-info">
+                            <h4>O Complicado</h4>
+                            <span class="author">Clara T. Silva</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Controles fora do swiper para evitar overflow:hidden -->
+            <div class="catalog-controls">
+                <button class="swiper-prev"><i class="ph ph-caret-left"></i></button>
+                <button class="swiper-next"><i class="ph ph-caret-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials reveal" id="testimonials">
+        <div class="testimonials-container">
+            <h2>Amado por leitores ao redor do país</h2>
+            <div class="grid-2">
+                <blockquote class="testimonial">
+                    <p>"Eu costumava levar 3 livros imensos na bolsa para as minhas viagens. Agora carrego apenas a
+                        Biblio. A interface é de um bom gosto absurdo, ler no celular nunca foi tão prazeroso."</p>
+                    <footer>
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=100&auto=format&fit=crop"
+                            alt="Sofia M.">
+                        <div>
+                            <strong>Sofia Maciel</strong>
+                            <span>Jornalista & Crítica Literária</span>
+                        </div>
+                    </footer>
+                </blockquote>
+                <blockquote class="testimonial">
+                    <p>"O que mais me impressiona é o conforto da tipografia e o modo noturno bem balanceado. As
+                        ferramentas de marcação de texto são essenciais para minhas pesquisas acadêmicas."</p>
+                    <footer>
+                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=100&auto=format&fit=crop"
+                            alt="Victor H.">
+                        <div>
+                            <strong>Victor Hartmann</strong>
+                            <span>Pesquisador Universitário</span>
+                        </div>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing reveal" id="pricing">
+        <div class="section-header center">
+            <h2>Planos transparentes</h2>
+            <p>Sem taxas ocultas, sem fidelidade. Mude ou cancele quando quiser.</p>
+        </div>
+        <div class="pricing-container">
+            <!-- Card 1 -->
+            <div class="pricing-card">
+                <h3>Base Digital</h3>
+                <div class="price">R$ 19<span>,90 / mês</span></div>
+                <p class="pricing-desc">Perfeito para quem prefere leituras casuais na tela do celular e não precisa de
+                    voz.</p>
+                <ul class="pricing-features">
+                    <li><i class="ph ph-check"></i> Acesso ilimitado a E-books</li>
+                    <li><i class="ph ph-check"></i> Leitura em até 2 dispositivos simultâneos</li>
+                    <li class="disabled"><i class="ph ph-x"></i> Acesso a Audiobooks</li>
+                    <li class="disabled"><i class="ph ph-x"></i> Download Offline Avançado</li>
+                </ul>
+                <a href="#" class="btn-outline-dark">Assinar Base</a>
+            </div>
+            <!-- Card 2 -->
+            <div class="pricing-card premium">
+                <div class="tag-popular">MAIS ESCOLHIDO</div>
+                <h3>Clube Premium</h3>
+                <div class="price">R$ 34<span>,90 / mês</span></div>
+                <p class="pricing-desc">Acesso irrestrito a todas as obras, formatos e sem limites para toda a família.
+                </p>
+                <ul class="pricing-features">
+                    <li><i class="ph ph-check"></i> Tudo do plano Base Digital</li>
+                    <li><i class="ph ph-check"></i> Telas ilimitadas (compartilhe a conta)</li>
+                    <li><i class="ph ph-check"></i> Audiobooks com narração original</li>
+                    <li><i class="ph ph-check"></i> Download completo de biblioteca offline</li>
+                </ul>
+                <a href="#" class="btn-solid">Começar 14 Dias Grátis</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq reveal" id="faq">
+        <div class="section-header center">
+            <h2>Perguntas Frequentes</h2>
+            <p>Tudo o que você precisa saber sobre o universo Biblio.</p>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <button class="faq-question">Posso cancelar minha assinatura a qualquer momento?</button>
+                <div class="faq-answer">
+                    <p>Sim! Não existe contrato de fidelidade conosco. Você pode assinar e cancelar diretamente pelo seu
+                        painel de usuário sem taxas escondidas. Ao assinar, você tem os primeiros 14 dias liberados de
+                        qualquer cobrança.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">A plataforma funciona no meu Kindle ou Kobo?</button>
+                <div class="faq-answer">
+                    <p>No momento a Biblio é um aplicativo independente dedicado para Web, iOS e Android. Trabalhamos
+                        focado na entrega da melhor tipografia nestas telas nativas. Ainda não temos integração direta
+                        com E-readers proprietários que bloqueiam aplicativos de terceiros.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Como funciona a biblioteca Offline?</button>
+                <div class="faq-answer">
+                    <p>Para assinantes Premium, basta acessar o aplicativo quando tiver conexão com a internet, clicar
+                        no ícone "Baixar para o Dispositivo" em qualquer livro, e ele estará acessível mesmo quando você
+                        habilitar o Modo Avião.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Banner -->
+    <section class="cta-banner reveal" id="subscribe">
+        <div class="banner-content">
+            <h2>Esvazie a estante.<br>Encha a imaginação.</h2>
+            <p>Assine a nossa newsletter diária para receber recomendações e cupons gratuitos todo mês.</p>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Seu email principal" required>
+                <button type="submit">Inscrever-se</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>Biblio<span>.</span></h3>
+                <p>Reescrevendo a maneira como o mundo devora conhecimento literário, um livro fascinante por vez.</p>
+                <div class="social-links">
+                    <a href="#"><i class="ph ph-instagram-logo"></i></a>
+                    <a href="#"><i class="ph ph-twitter-logo"></i></a>
+                    <a href="#"><i class="ph ph-linkedin-logo"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Empresa</h4>
+                <ul>
+                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Autores e Editoras</a></li>
+                    <li><a href="#">Carreiras Institucionais</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Jurídico e Legal</h4>
+                <ul>
+                    <li><a href="#">Termos e Condições</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Meus Direitos (LGPD)</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Biblio Platform Enterprise. Todos os direitos devidamente reservados e protegidos por
+                Copyright.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="Script.js"></script>
+</body>
+
+</html>
