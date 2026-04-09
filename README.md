@@ -1,6 +1,6 @@
 # 📚 Biblio - Static Landing Page
 
-![Biblio Preview](./assets/img/Readme/redmeimg.png)
+![Biblio Preview](./assets/img/Readmeassets/redmeimg.png)
 
 ## 🌐 Live Preview
 Confira o site online aqui: **[https://bibliostatic.netlify.app/](https://bibliostatic.netlify.app/)**
