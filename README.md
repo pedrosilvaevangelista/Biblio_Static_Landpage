@@ -8,9 +8,16 @@ Confira o site online aqui: **[https://bibliostatic.netlify.app/](https://biblio
 ---
 
 ## 📝 Sobre o Projeto
-Este é um projeto de **site estático fictício** desenvolvido para demonstrar habilidades em design editorial moderno, UI/UX e desenvolvimento web frontend. 
+Este projeto é a materialização de uma **evolução no design**. Ele serve como uma atualização robusta de um projeto antigo, demonstrando como habilidades técnicas e estéticas podem amadurecer para alcançar níveis profissionais de UI/UX.
 
-O **Biblio** foi concebido como uma plataforma de descoberta literária, com foco em uma estética visual premium e uma experiência de usuário fluida.
+O **Biblio** foi reconstruído do zero para transformar uma ideia simples em uma experiência digital premium, com foco em design editorial, harmonia cromática e interatividade fluida.
+
+### 🚀 Evolução & Design
+O objetivo principal deste repositório é mostrar o contraste entre o passado e o presente:
+- **Antes**: Design estático básico.
+- **Agora**: Uma landing page moderna com grid layouts complexos, tipografia refinada e micro-interações.
+- **Propósito**: Provar que com dedicação e prática, o design pode ser elevado a padrões de mercado de alta conversão.
+
 
 ### ✨ Características
 - 🎨 **Design Moderno**: Paleta de cores sofisticada (Peach, Coral, Teal).
