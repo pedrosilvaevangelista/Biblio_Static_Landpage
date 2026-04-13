@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
         slidesPerView: 1.5,
         spaceBetween: 20,
         grabCursor: true,
-        // Correção de Z-index e foco da seta 
         navigation: {
             nextEl: '.swiper-next',
             prevEl: '.swiper-prev',
@@ -68,7 +67,13 @@ document.addEventListener('DOMContentLoaded', () => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
             const targetId = this.getAttribute('href');
-            if (targetId === '#') return;
+            if (targetId === '#') {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+                return;
+            }
             const targetElement = document.querySelector(targetId);
             if (targetElement) {
                 targetElement.scrollIntoView({
@@ -79,11 +84,34 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     /* ==============================
-       MOBILE MENU ALERT PLACEHOLDER
+       MOBILE MENU TOGGLE
        ============================== */
     const mobileBtn = document.querySelector('.mobile-menu-btn');
+    const navMenu = document.querySelector('.nav-menu');
+
     mobileBtn.addEventListener('click', () => {
-        alert("Mobile menu clicked! (Aqui vai a lógica para expandir o sub-menu mobile)");
+        navMenu.classList.toggle('active');
+        
+        // Toggle menu icon
+        const icon = mobileBtn.querySelector('i');
+        if (icon.classList.contains('ph-list')) {
+            icon.classList.remove('ph-list');
+            icon.classList.add('ph-x');
+        } else {
+            icon.classList.remove('ph-x');
+            icon.classList.add('ph-list');
+        }
+    });
+
+    // Close menu when clicking a link
+    const navLinks = document.querySelectorAll('.nav-menu a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            navMenu.classList.remove('active');
+            const icon = mobileBtn.querySelector('i');
+            icon.classList.remove('ph-x');
+            icon.classList.add('ph-list');
+        });
     });
 
     /* ==============================
